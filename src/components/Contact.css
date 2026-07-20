@@ -1,0 +1,39 @@
+.contact-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card h2 {
+  text-align: center !important;
+}
+
+.contact-desc {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.contact-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .contact-card {
+    padding: 2rem;
+  }
+  .contact-links {
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-links .btn {
+    width: 100%;
+  }
+}
