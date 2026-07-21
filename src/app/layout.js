@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Tryphene Murugat | Systems & Macro Architect Engineer",
-  description: "Portfolio of Tryphene Murugat, Systems Engineer, Software Engineer, and Macro Architect Engineer.",
+  title: "Tryphen Emurugat | Systems & Macro Architect Engineer",
+  description: "Portfolio of Tryphen Emurugat, Systems Engineer, Software Engineer, and Macro Architect Engineer.",
 };
 
 export default function RootLayout({ children }) {

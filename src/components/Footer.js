@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container footer-container">
         <div className="footer-brand">
           <span className="logo gradient-text">TM.</span>
-          <p>&copy; {new Date().getFullYear()} Tryphene Murugat. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Tryphen Emurugat. All rights reserved.</p>
         </div>
         <div className="footer-socials">
           <a href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer">GitHub</a>
