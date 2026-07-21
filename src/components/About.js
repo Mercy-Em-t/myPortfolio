@@ -3,37 +3,27 @@ import './About.css';
 export default function About() {
   return (
     <section id="about" className="section about-section">
-      <div className="container">
-        <h2 className="section-title gradient-text">About Me</h2>
-        <div className="about-content glass-panel animate-fade-in delay-100">
-          <div className="about-text">
-            <p>
-              I am a passionate <strong>Systems Engineer</strong>, <strong>Software Engineer</strong>, and <strong>Macro Architect Engineer</strong>. 
-              My expertise lies in bridging the gap between high-level system architecture and low-level software implementation.
-            </p>
-            <p>
-              [Placeholder] I have over X years of experience designing scalable, resilient systems for [Industry/Sector]. 
-              I thrive on solving complex technical challenges and optimizing system performance across diverse environments.
-            </p>
-            <p>
-              When I'm not architecting systems, you can find me [Placeholder: exploring new tech, reading, etc.].
-            </p>
-          </div>
-          <div className="about-stats">
-            <div className="stat-item">
-              <h3 className="gradient-text">[X]+</h3>
-              <p>Years Experience</p>
-            </div>
-            <div className="stat-item">
-              <h3 className="gradient-text">[X]+</h3>
-              <p>Projects Delivered</p>
-            </div>
-            <div className="stat-item">
-              <h3 className="gradient-text">[X]+</h3>
-              <p>Systems Architected</p>
-            </div>
-          </div>
+      <div className="cutout-wrapper">
+        {/* Massive Background Text */}
+        <h1 className="cutout-bg-text">ABOUT ME</h1>
+        
+        {/* The Cutout Image (Subject) */}
+        {/* Replace the src with your own transparent PNG cutout */}
+        <div className="placeholder-cutout">
+          <p>Replace with your transparent .png photo</p>
         </div>
+        {/* <img src="/your-cutout-photo.png" alt="Tryphen Emurugat" className="cutout-image" /> */}
+
+        {/* Foreground Signature Overlapping the Subject */}
+        <div className="signature-overlay">
+          Tryphen Emurugat
+        </div>
+      </div>
+
+      <div className="container about-footer">
+        <p className="about-paragraph">
+          I'm Tryphen, a Systems and Macro Architect Engineer focused on building robust, highly-scalable infrastructures that are resilient and feel considered. I care about high-level system clarity, low-level technical detail, and designing architectures that actually work for real enterprise needs.
+        </p>
       </div>
     </section>
   );

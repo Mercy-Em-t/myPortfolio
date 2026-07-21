@@ -3,18 +3,27 @@ import './Hero.css';
 export default function Hero() {
   return (
     <section id="home" className="hero-section">
-      <div className="container hero-content">
-        <div className="hero-text animate-fade-in">
-          <p className="greeting">Hi, I'm</p>
-          <h1 className="name">Tryphen Emurugat.</h1>
-          <h2 className="title gradient-text">Macro Architect & Systems Engineer.</h2>
-          <p className="description">
-            I specialize in designing robust software systems, architecting macro-level infrastructure, and building scalable solutions that drive technological innovation.
-          </p>
-          <div className="hero-cta delay-200">
-            <a href="#projects" className="btn btn-primary">View My Work</a>
-            <a href="#contact" className="btn btn-outline">Get In Touch</a>
-          </div>
+      <div className="cutout-wrapper">
+        {/* Massive Background Text */}
+        <h1 className="cutout-bg-text">PORTFOLIO</h1>
+        
+        {/* The Cutout Image (Subject) */}
+        {/* Replace the src with your own transparent PNG cutout */}
+        <div className="placeholder-cutout hero-cutout">
+          <p>Replace with another transparent .png photo</p>
+        </div>
+        {/* <img src="/your-hero-photo.png" alt="Tryphen Emurugat" className="cutout-image hero-cutout" /> */}
+
+        {/* Foreground Title/Role Overlapping the Subject */}
+        <div className="hero-foreground-text">
+          <h2 className="title">Creative Architecture</h2>
+          <p className="subtitle">Systems & Macro Architect Engineer</p>
+        </div>
+      </div>
+      
+      <div className="container hero-cta-container">
+        <div className="hero-cta">
+          <a href="#projects" className="btn btn-primary">Selected Work &rarr;</a>
         </div>
       </div>
     </section>

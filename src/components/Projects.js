@@ -25,19 +25,22 @@ export default function Projects() {
   return (
     <section id="projects" className="section projects-section">
       <div className="container">
-        <h2 className="section-title gradient-text">Featured Projects</h2>
+        <h2 className="section-title">Selected Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
-            <div key={index} className="project-card glass-panel animate-fade-in delay-100">
-              <div className="project-content">
+            <div key={index} className="project-card solid-panel">
+              <div className="project-header">
+                <span className="project-number">0{index + 1}</span>
                 <h3>{project.title}</h3>
+              </div>
+              <div className="project-content">
                 <p className="project-desc">{project.description}</p>
                 <div className="project-tech">
                   {project.tech.map((tech, i) => (
                     <span key={i} className="tech-tag">{tech}</span>
                   ))}
                 </div>
-                <a href={project.link} className="project-link">View Project &rarr;</a>
+                <a href={project.link} className="project-link">View Details &rarr;</a>
               </div>
             </div>
           ))}
